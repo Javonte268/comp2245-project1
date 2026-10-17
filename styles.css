@@ -97,3 +97,19 @@
    color: #2F855A;
    text-decoration: underline;
  }
+
+.hero {
+   background-color: #F0FFF4;
+ }
+ 
+ .hero .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 48px;
+   align-items: center;
+ }
+ 
+ .hero p {
+   font-size: 20px;
+   margin-bottom: 32px;
+ }
