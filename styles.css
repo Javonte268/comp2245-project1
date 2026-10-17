@@ -58,3 +58,42 @@
     .btn:hover {
       background-color: #276749;
     }
+
+
+.site-header {
+   border-bottom: 1px solid #E2E8F0;
+   padding-top: 16px;
+   padding-bottom: 16px;
+ }
+ 
+ .site-header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo {
+   font-size: 24px;
+   font-weight: bold;
+   text-decoration: none;
+ }
+ 
+ .nav-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 24px;
+ }
+ 
+ .nav-links a {
+   color: #2D3748;
+   font-weight: bold;
+   text-decoration: none;
+ }
+ 
+ .nav-links a:hover,
+ .logo:hover {
+   color: #2F855A;
+   text-decoration: underline;
+ }
