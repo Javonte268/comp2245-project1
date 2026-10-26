@@ -192,3 +192,82 @@ blockquote cite {
   font-size: 16px;
   color: #4A5568;
 }
+
+.signup {
+  text-align: center;
+}
+
+.signup h2,
+.signup > .container > p {
+  text-align: center;
+}
+
+.signup form {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.signup label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.signup input,
+.signup select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #A0AEC0;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.signup input[aria-invalid="true"],
+.signup select[aria-invalid="true"] {
+  border: 2px solid #C53030;
+}
+
+.error {
+  color: #C53030;
+  font-size: 15px;
+  min-height: 24px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.signup .btn {
+  width: 100%;
+  margin-top: 24px;
+}
+
+#form-message.success {
+  background-color: #C6F6D5;
+  color: #22543D;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 520px;
+  margin: 24px auto 0 auto;
+  text-align: center;
+}
+
+.site-footer {
+  background-color: #22543D;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 16px;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
